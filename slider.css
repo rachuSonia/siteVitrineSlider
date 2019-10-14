@@ -1,0 +1,102 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+body{
+	background-image: url(img/bg_body.svg);
+	background-color: #444444;
+	padding: 15px;
+}
+.petitblock{
+	background-color: white;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 10px;
+}
+.petitblock img{
+	width: 80%;
+}
+header{
+	background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(-50deg, #4c4c4c 0%, #474747 0%, #474747 0%, #666666 0%, #666666 0%, #595959 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 50%, #131313 50%, #ffffff 50%, #131313 50%, #333333 100%, #ffffff 100%, #ffffff 100%, #131313 100%, #ffffff 100%, #111111 100%, #111111 100%, #111111 100%, #111111 100%, #ffffff 100%, #111111 100%, #111111 100%, #111111 100%, #ffffff 100%, #111111 100%, #ffffff 100%, #ffffff 100%, #111111 100%, #111111 101%, #131313 101%, #ffffff 101%, #ffffff 103%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-50deg, #4c4c4c 0%,#474747 0%,#474747 0%,#666666 0%,#666666 0%,#595959 0%,#ffffff 0%,#ffffff 0%,#ffffff 0%,#ffffff 0%,#ffffff 0%,#ffffff 50%,#131313 50%,#ffffff 50%,#131313 50%,#333333 100%,#ffffff 100%,#ffffff 100%,#131313 100%,#ffffff 100%,#111111 100%,#111111 100%,#111111 100%,#111111 100%,#ffffff 100%,#111111 100%,#111111 100%,#111111 100%,#ffffff 100%,#111111 100%,#ffffff 100%,#ffffff 100%,#111111 100%,#111111 101%,#131313 101%,#ffffff 101%,#ffffff 103%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(160deg, #4c4c4c 0%,#474747 0%,#474747 0%,#666666 0%,#666666 0%,#595959 0%,#ffffff 0%,#ffffff 0%,#ffffff 0%,#ffffff 0%,#ffffff 0%,#ffffff 50%,#131313 50%,#ffffff 50%,#131313 50%,#333333 100%,#ffffff 100%,#ffffff 100%,#131313 100%,#ffffff 100%,#111111 100%,#111111 100%,#111111 100%,#111111 100%,#ffffff 100%,#111111 100%,#111111 100%,#111111 100%,#ffffff 100%,#111111 100%,#ffffff 100%,#ffffff 100%,#111111 100%,#111111 101%,#131313 101%,#ffffff 101%,#ffffff 103%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding:10px;
+}
+header nav a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	font-size: 2.5rem;
+	text-align: right;
+}
+header img{
+	width: 130px;
+}
+span{
+	color: orange;
+}
+h1{
+	color: white;
+	font-size: 2.5rem;
+}
+h2{
+	border-top: 1px solid #333333;
+	border-left: 1px solid #333333;
+	color: white;
+	font-size: 3rem;
+}
+h3{
+	text-align: center;
+	color: orange;
+	border-bottom: 2px solid orange;
+	padding: 10px;
+	margin-left:10px;
+	margin-right: 10px;
+	font-size: 2.5rem;
+}
+.petitblock a{
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: orange;
+	padding: 10px 40px 10px 40px;
+	margin-bottom: 10px;
+	font-size: 2rem;
+}
+.petitblock p{
+	color: black;
+}
+p{
+	text-align: center;
+	margin:auto;
+	color: white;
+	font-size:2rem;
+	line-height: 1.8;
+}
+video{
+	width: 100%;
+}
+.licence {
+    display: block;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    box-shadow: 3px 3px #333333, -0.5em 0 .1em #333333;
+    margin-top: 30px;
+}
+
+.licence img {
+    width: 50px;
+}
+.licence a{
+	color: white;
+}
+
